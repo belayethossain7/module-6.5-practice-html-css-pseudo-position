@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        h3{
+            color: peru;
+        }
+        /* Mouse over means hover */
+        h3:hover {
+            color: tomato;
+            background-color: skyblue;
+        }
+        input:focus {
+            color: blue;
+            outline: 0;
+            border: 1px solid blue;
+        }
+        a:visited{
+            color: gray;
+        }
+        li:first-child {
+            color: green;
+        }
+        li:nth-child(2n) {
+            background-color: aqua;
+        }
+        li:nth-child(2n+1) {
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <h3>My Heading</h3>
+    <input type="text">
+    <input type="text">
+    <input type="text">
+    <a href="https://www.google.com/">google</a>
+    <a href="https://www.facebook.com/">facebook</a>
+
+    <ul>
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+        <li>Pineapple</li>
+        <li>Grapes</li>
+        <li>Watermelon</li>
+    </ul>
+</body>
+</html>
